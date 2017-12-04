@@ -210,3 +210,40 @@ reverseString("hello");
 }
 
 reverseString("hello");
+
+
+
+
+///Factorizing a number:
+
+//Return the factorial of the provided integer.
+
+function factorialize(num) {
+  var x = 1;
+  for (i =1; i <= num; i++){
+    x = x * i;
+  }
+
+  return x;
+}
+
+factorialize(5);
+
+
+//initialisation, condition, and control (loops)
+
+for (i = 0; i < 5; i++) {
+
+  console.log("hello " + (i + 1));
+}
+
+///array
+
+var myArray = [' Pony', ' Donkey', ' Horse', ' Mule', ' Hinny']
+
+
+let shortArray = myArray.filter(word => word.length > 5);
+console.log("My" + shortArray);
+
+let longArray = myArray.filter(word => word.length <= 5);
+console.log("My" + longArray);
